@@ -1,0 +1,26 @@
+/* General */
+
+header .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container-fluid,
+.container {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-fluid {
+    max-width: 980px;
+  }
+}
+
+/* Pitch */
+
+#pitch img {
+  width: 200px;
+  height: 200px;
+}
